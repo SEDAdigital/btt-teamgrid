@@ -1,0 +1,13 @@
+{
+  "name": "btt-teamgrid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christian Seel",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dayjs": "^1.6.2",
+    "node-cache": "^4.2.0",
+    "request": "^2.86.0"
+  }
+}
