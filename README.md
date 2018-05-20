@@ -1,6 +1,16 @@
 # Teamgrid Widget for BetterTouchTool
 This is a custom widget for the [Teamgrid](https://teamgridapp.com) Project Management Software in [BetterTouchTool](https://github.com/folivoraAI/BetterTouchTool).
 
+## Features
+- Button that opens the teamgrid website in Chrome (also opens the existing tab, if exists)
+- Buttons updates every 5 seconds to show the current running timer and displays name, hours and minutes
+- Stop button to stop the currently running timer
+
+![Image](https://cl.ly/3l2m2y1z0d1s/IMG_2905.JPG)
+
+## Author
+[SEDA.digital](https://seda.digital)
+
 # LICENSE
 ```
 MIT License
