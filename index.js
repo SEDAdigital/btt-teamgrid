@@ -1,15 +1,19 @@
 var request = require("request");
 let dayjs = require('dayjs');
 
+// @todo add a config file for this
+let teamgridtoken = '';
+let teamgridUserId = '';
+
 var options = {
     method: 'GET',
     url: 'https://api.teamgridapp.com/times',
     qs: {
         limit: '1',
-        userId: '4stm3TKWPgqrdGKEh'
+        userId: teamgridUserId
     },
     headers: {
-        "Authorization": 'Bearer RMgJDabq2mu64nkzNzmN2jgro'
+        "Authorization": 'Bearer '+teamgridtoken
     }
 };
 
